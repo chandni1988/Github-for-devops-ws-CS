@@ -1,0 +1,14 @@
+stages:
+  - validate
+  - build
+
+validate-job:
+  stage: validate
+  script:
+    - echo "Validation passed"
+
+build-job:
+  stage: build
+  script:
+    - echo "Building application..."
+    - echo "Build successful"
